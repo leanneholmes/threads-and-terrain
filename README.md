@@ -69,7 +69,7 @@ Use the `BLANK_README.md` to get started.
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * ![Angular.io]
-* ![NET]
+* [![.NET][NET]][NET-url]
 * TypeScript
 * .NET
 * Stripe
@@ -204,6 +204,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [Bootstrap-url]: https://getbootstrap.com
 https://img.shields.io/badge/.NET-here-brightgreen?logo=.net&label=.NET&labelColor=%23512BD4&color=%23512BD4
 [NET]: https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white
+[NET-url]: https://dotnet.microsoft.com/en-us/
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
