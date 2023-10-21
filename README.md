@@ -201,7 +201,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [Laravel-url]: https://laravel.com
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-https://img.shields.io/badge/.NET-here-brightgreen?logo=.net&label=.NET&labelColor=%23512BD4&color=%23512BD4
 [NET]: https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white
 [NET-url]: https://dotnet.microsoft.com/en-us/
 [Bootstrap-url]: https://getbootstrap.com
