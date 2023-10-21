@@ -10,7 +10,7 @@
   <h3 align="center">threads&terrain</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A mock ecommerce store built with Angular and .NET 
   </p>
 </div>
 
