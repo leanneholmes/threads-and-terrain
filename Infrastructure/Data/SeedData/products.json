@@ -1,0 +1,146 @@
+[
+  {
+    "Name": "Carto Triclimate Jacket",
+    "Description": "The Carto Triclimate® Jacket from The North Face is a waterproof, breathable and windproof DryVent™ 2L shell paired with a zip-out, insulated liner jacket. It can be adapted for total comfort in almost any situation.",
+    "Price": 360,
+    "PictureUrl": "images/products/jacket-northface1.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Colster Can Insulator",
+    "Description": "Just like the original, but with a sleeker design and an updated gasket. The YETI Rambler® Colster® 12 oz Can Insulator is perfect for sparkling water, soft drinks and good old-fashioned beer, all kept straight-from-the-cooler cold while kicking back on the boat, at camp or wherever good times are going down.",
+    "Price": 35,
+    "PictureUrl": "images/products/tumbler-yeti1.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Granite Trail Mid Waterproof Hiking Boot",
+    "Description": "The men's Columbia Granite Trail Mid Waterproof Hiking Boot is a durable and versatile hiker that's built to keep you comfortable and protected wherever you roam. Advanced waterproof-breathable tech keeps you dry inside and out while the mid-height collar, enhanced lightweight cushioning, and tight grip keep you sure-footed on variable surfaces.",
+    "Price": 140,
+    "PictureUrl": "images/products/shoes-columbia1.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Benton Springs™ Half-Snap Pullover Top",
+    "Description": "Columbia's famous Benton Springs fleece takes on a fresh look in this soft pullover with an adjustable snap-up neckline. Plush fleece with a bit of stretch delivers a supremely cozy feel.",
+    "Price": 60,
+    "PictureUrl": "images/products/top-columbia1.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Organic GI Pant",
+    "Description": "Made from durable organic cotton canvas, the multifunctional Organic Gi Pants from Patagonia are ideal for everyday wear. They provide the same comfort as your favourite pair of sweats but with a look that you can rely on to get you through social engagements.",
+    "Price": 125,
+    "PictureUrl": "images/products/bottoms-patagonia1.png",
+    "ProductTypeId": 3,
+    "ProductBrandId":1
+  },
+  {
+    "Name": "Refugio Daypack",
+    "Description": "The Refugio Daypack 26L is a durable backpack with the go-to volume and fit of Patagonia's core daypack line, built for efficient working on the go and capable gear carrying on the trail, with the ability to tackle any pursuit in between.",
+    "Price": 135,
+    "PictureUrl": "images/products/daypack-patagonia1.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Autumn Park™ Hooded Jacket",
+    "Description": "Take on chilly days with ease in the Autumn Park™ Hooded Jacket from Columbia. A blend of responsibly-sourced down and Microtemp XF II synthetic insulation wraps your core with protective warmth.",
+    "Price": 249.99,
+    "PictureUrl": "images/products/jacket-columbia1.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Montana Ski Glove",
+    "Description": "The Montana Ski Gloves from The North Face have been fully redesigned with updated Heatseeker™ Eco insulation, DryVent™ inserts, durable faux leather palm overlays and more. The wrist leash lets you keep track of them when not in use, and the exterior nose wipe is invaluable on icy, windy days.",
+    "Price": 80,
+    "PictureUrl": "images/products/gloves-northface1.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Nuptse Parka",
+    "Description": "Taking the best-selling Nuptse Jacket and extending it to new lengths, the women's Nuptse Parka from The North Face is a modern interpretation of a classic. This long puffer coat is made from 100% recycled fabric with recycled down insulation and a non-PFC durable water repellent finish to protect from cold, snowy weather.",
+    "Price": 600,
+    "PictureUrl": "images/products/jacket-northface2.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Cotton Lightweight Henley Top",
+    "Description": "Built to be a staple in your closet for long-lasting wear. This Patagonia lightweight henley top is made of 100% Regenerative Organic Certified™ cotton. The three-button placket lends a clean finish, while the straight hem adds comfort and style.",
+    "Price": 95,
+    "PictureUrl": "images/products/top-patagonia1.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "VECTIV Fastpack Hiking Shoe",
+    "Description": "The women's VECTIV Fastpack FUTURELIGHT™ Hiking Shoe from The North Face is a lightweight hiker for fast-paced, single-day missions. This breathable, water-resistant trail shoe has a cushioned, rockered midsole that delivers comfort while maximizing energy return.",
+    "Price": 195,
+    "PictureUrl": "images/products/shoes-northface1.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Gamma Pant",
+    "Description": "An icon known for its outstanding versatility, the men's Arc'teryx Gamma Pant continues to evolve. Steeped in climbing DNA, it's also a go-to for hikers, backpackers--anyone requiring durability, comfort, wind protection, and the freedom of performance stretch. The hardwearing Fortius™ DW 2.0 softshell resists wind and water and provides light insulation. The waistband rides comfortably under a harness or hipbelt, the cuff closes with drawstring, and secure pockets include an easily accessible one at the thigh.",
+    "Price": 240,
+    "PictureUrl": "images/products/bottoms-arcteryx1.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Atmos AG 65 Backpack",
+    "Description": "For heavyweight weekends or weeklong backpacking trips where comfort and ventilation are paramount, people know to reach for the Osprey Atmos AG 65 Backpack. You'll forget how much you really packed with its AntiGravity suspension, delivering an incredible fit that seamlessly envelopes your back and hips in 3D-suspended mesh. ",
+    "Price": 440,
+    "PictureUrl": "images/products/backpack-osprey1.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Kyanite Hoody Jacket",
+    "Description": "Ski tours, fall mornings at camp, chilly days at the crags--the warmest Arc'teryx Kyanite Hoody's thermal performance, durability and soft comfort lets it shine as a midlayer or standalone. Polartec® Power Stretch® Pro has a nylon face for abrasion resistance, and its four-way stretch combines with articulated patterning for exceptional freedom of movement. The unrestricted fit layers easily under a shell, a low-profile ScubaHood™ adds warmth, and the brushed fleece interior wicks moisture and is really soft.",
+    "Price": 220,
+    "PictureUrl": "images/products/jacket-arcteryx1.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Hopper Flip 12 Cooler Bag",
+    "Description": "Meet the leakproof, tough-as-nails, carry-the-day soft cooler: the Hopper™ Flip® 12. Its wide-mouth opening makes for easy loading and access to your food and drinks. Its compact, cubed body means ultimate portability -- go off road, onto the water, and back again with this personal cooler. And its extreme insulation means your ice is staying ice.",
+    "Price": 350,
+    "PictureUrl": "images/products/cooler-yeti1.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Boundless Fleece Full-Zip Jacket",
+    "Description": "The women's Columbia Boundless Trek Fleece Full-Zip Jacket is a hybrid jacket crafted of nubby sherpa fleece with a ribbed yoke, stand collar and elongated cuffs. Hand pockets are perfect for warming up chilly fingers.",
+    "Price": 120,
+    "PictureUrl": "images/products/top-columbia2.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Kestrel 48 Backpack",
+    "Description": "If you need a pack that can handle scraping through sandstone canyons, scrambling up snow-covered peaks, or hauling your gear for a day of trail work, the Kestrel 48 from Osprey can manage all that and more. For quick overnights or big days out, this pack is made to haul heavy gear through challenging environments. It wouldn't be an Osprey without adjustable torso lengths to help you dial in your perfect fit and an AirScape backpanel to provide ventilation, whether you're working hard or hardly working.",
+    "Price": 250,
+    "PictureUrl": "images/products/backpack-osprey2.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Sierra Mid Lace Waterproof Boot",
+    "Description": "Lightweight, waterproof and insulated, the women's Sierra Mid Lace Waterproof Boot from The North Face combines full-grain leather with an engineered ribbed knit to perfectly balance style and comfort. A cozy, fur-lined collar is the finishing touch on this ankle-high boot for cold-weather adventures.",
+    "Price": 200,
+    "PictureUrl": "images/products/shoes-northface2.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 2
+  }
+]
