@@ -71,12 +71,10 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * ![Angular.io]
 * [![NET][NET]][NET-url]
 * [![TypeScript][TypeScript]][TypeScript-url]
-* Stripe
+* [![Stripe][Stripe]][Stripe-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * Fontawesome
 * [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,8 +193,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [Vue-url]: https://vuejs.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
+[Stripe]: https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=FF3E00
+[Stripe-url]: https://stripe.com
 [TypeScript]: https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white
 [TypeScript-url]: https://dotnet.microsoft.com/en-us/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
