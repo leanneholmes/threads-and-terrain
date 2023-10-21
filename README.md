@@ -73,8 +73,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![TypeScript][TypeScript]][TypeScript-url]
 * [![Stripe][Stripe]][Stripe-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* Fontawesome
-* [![Svelte][Svelte.dev]][Svelte-url]
+* [![FontAwesome][FontAwesome]][FontAwesome-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
