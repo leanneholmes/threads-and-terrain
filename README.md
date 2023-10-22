@@ -193,5 +193,5 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [NET]: https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white
 [NET-url]: https://dotnet.microsoft.com/en-us/
 [Bootstrap-url]: https://getbootstrap.com
-[FontAwesome]: https://img.shields.io/badge/fontawesome-000000?style=for-the-badge&logo=fontawesome&logoColor=white
+[FontAwesome]: https://img.shields.io/badge/c%20sharp-000000?style=for-the-badge&logo=c%20sharp&logoColor=white
 [FontAwesome-url]: https://fontawesome.com
