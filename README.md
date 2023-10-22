@@ -63,7 +63,7 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 
 
-### Built With
+## Built With
 
 Major frameworks/libraries used for the project were: 
 
