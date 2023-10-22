@@ -73,7 +73,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![TypeScript][TypeScript]][TypeScript-url]
 * [![Stripe][Stripe]][Stripe-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![FontAwesome][FontAwesome]][FontAwesome-url]
+* [![CSharp][CSharp]][CSharp-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -193,5 +193,5 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [NET]: https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white
 [NET-url]: https://dotnet.microsoft.com/en-us/
 [Bootstrap-url]: https://getbootstrap.com
-[FontAwesome]: https://img.shields.io/badge/c%20sharp-000000?style=for-the-badge&logo=c%20sharp&logoColor=white
-[FontAwesome-url]: https://fontawesome.com
+[CSharp]: https://img.shields.io/badge/c%20sharp-000000?style=for-the-badge&logo=c%20sharp&logoColor=white
+[CSharp-url]: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/
