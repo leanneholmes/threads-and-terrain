@@ -129,9 +129,8 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 * [Dev Certificate Maker](https://github.com/FiloSottile/mkcert)
 * [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Bootswatch Themes] (https://bootswatch.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
