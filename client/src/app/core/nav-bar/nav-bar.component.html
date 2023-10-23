@@ -10,14 +10,21 @@
   />
   <nav class="my-2 nav-links-container justify-content-between">
     <a
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
       class="nav-link"
       >Home</a
     >
-    <a class="nav-link" routerLink="/shop" routerLinkActive="active">Shop</a>
-    <a class="nav-link" routerLink="/test-error" routerLinkActive="active"
-      >About</a
+    <a
+      class="nav-link"
+      routerLink="/shop"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Shop</a
     >
-    <a class="nav-link" routerLink="/test-error" routerLinkActive="active"
+    <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+    <a class="nav-link" routerLink="/contact" routerLinkActive="active"
       >Contact</a
     >
   </nav>

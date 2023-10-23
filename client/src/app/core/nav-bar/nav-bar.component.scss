@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-
 * {
-  font-family: "Manrope", sans-serif;
+  font-size: 18px;
 }
 
 .cart-no {
@@ -26,19 +24,21 @@
   display: inline;
 }
 
-.nav-links-container a {
+.nav-link.active {
+  color: #d7b4a8;
+  border-bottom: 2px solid #d7b4a8;
+  padding-bottom: 5px;
+}
+
+.nav-link:hover {
+  color: #d7b4a8;
+  border-bottom: 2px solid #d7b4a8;
+  padding-bottom: 5px;
+}
+
+a {
   text-decoration: none;
   color: black;
-
-  &.active {
-    color: #d7b4a8;
-  }
-
-  &:hover {
-    color: #d7b4a8;
-    border-bottom: 2px solid #d7b4a8;
-    padding-bottom: 5px;
-  }
 }
 
 .logo {
