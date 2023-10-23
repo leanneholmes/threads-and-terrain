@@ -9,6 +9,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { SectionHeaderComponent } from './section-header/section-header.component';
 import { BreadcrumbModule } from 'xng-breadcrumb';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     NotFoundComponent,
     ServerErrorComponent,
     SectionHeaderComponent,
+    FooterComponent,
   ],
   imports: [
     CommonModule,
@@ -28,6 +30,11 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     BreadcrumbModule,
     NgxSpinnerModule,
   ],
-  exports: [NavBarComponent, SectionHeaderComponent, NgxSpinnerModule],
+  exports: [
+    NavBarComponent,
+    SectionHeaderComponent,
+    NgxSpinnerModule,
+    FooterComponent,
+  ],
 })
 export class CoreModule {}
