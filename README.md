@@ -70,6 +70,7 @@ Major frameworks/libraries used for the project were:
 * ![Angular.io]
 * [![TypeScript][TypeScript]][TypeScript-url]
 * Redis
+* Docker
 * [![NET][NET]][NET-url]
 * [![CSharp][CSharp]][CSharp-url]
 * SQL
