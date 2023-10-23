@@ -11,6 +11,8 @@ import { BreadcrumbService } from 'xng-breadcrumb';
 })
 export class ProductDetailsComponent implements OnInit {
   product?: Product;
+  quantity = 1;
+  quantityInBasket = 0;
 
   constructor(
     private shopService: ShopService,
