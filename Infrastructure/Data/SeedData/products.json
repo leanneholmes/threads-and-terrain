@@ -24,7 +24,7 @@
     "ProductBrandId": 3
   },
   {
-    "Name": "Benton Springs™ Half-Snap Pullover Top",
+    "Name": "Benton Springs Half-Snap Pullover Top",
     "Description": "Columbia's famous Benton Springs fleece takes on a fresh look in this soft pullover with an adjustable snap-up neckline. Plush fleece with a bit of stretch delivers a supremely cozy feel.",
     "Price": 60,
     "PictureUrl": "images/products/top-columbia1.png",
@@ -48,9 +48,9 @@
     "ProductBrandId": 1
   },
   {
-    "Name": "Autumn Park™ Hooded Jacket",
+    "Name": "Autumn Park Hooded Jacket",
     "Description": "Take on chilly days with ease in the Autumn Park™ Hooded Jacket from Columbia. A blend of responsibly-sourced down and Microtemp XF II synthetic insulation wraps your core with protective warmth.",
-    "Price": 249.99,
+    "Price": 250,
     "PictureUrl": "images/products/jacket-columbia1.png",
     "ProductTypeId": 1,
     "ProductBrandId": 3
@@ -142,5 +142,21 @@
     "PictureUrl": "images/products/shoes-northface2.png",
     "ProductTypeId": 4,
     "ProductBrandId": 2
+  },
+  {
+    "Name": "Rho Light Zip",
+    "Description": "Comfort starts with your base layer. Made for performance during lower output activities on cool days, the Rho LT zip-neck adds warmth, moves moisture, and is soft next to the skin. Its Torrent™ fabric is brushed for thermal performance and comfort, and a Polygiene® treatment provides odour control. The trim fit maximizes fabric performance and facilitates layering, a deep front zip makes it easy to pull on and off, the chest pocket secures your smartphone, and the tall collar adds warmth.",
+    "Price": 140,
+    "PictureUrl": "images/products/top-arcteryx1.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Theriss High-Rise Pants",
+    "Description": "The freedom of being on the snow – that unique feeling is the inspiration for the Theriss. Streamlined and seriously stretchy, our trimmest pant for on-area skiing and snowboarding moves with you – every turn, every run. Highly breathable GORE-TEX INFINIUM™ softshell blocks wind, resists rain and snow, and has four-way mechanical stretch for outstanding mobility and fit. An Embedded RECCO® reflector can aid search and rescue. The high rise and wide waistband are comfortable, layer easily under your jacket, and give the Theriss its clean, contemporary look.",
+    "Price": 530,
+    "PictureUrl": "images/products/bottoms-arcteryx2.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
   }
 ]
