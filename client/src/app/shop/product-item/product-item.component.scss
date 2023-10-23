@@ -1,11 +1,83 @@
+.product-item {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  // border: 1px solid #f0f0f0;
+}
+
 .bag-icon {
   width: 25px;
 }
 
+.card-body {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
 .product-name {
   color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.product-brand {
+  text-transform: uppercase;
+  color: #2d4156;
+  font-weight: 400;
 }
 
 .product-price {
   font-weight: 500;
+  font-size: 16px;
+}
+
+.btn {
+  width: 95%;
+  height: 35px;
+  background-color: white;
+  border: 1px solid #a0a0a0;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  margin-top: 100%;
+}
+
+.btn-add {
+  margin-top: 5px;
+  width: 95%;
+  height: 35px;
+  background-color: #d7b4a8;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.button-container {
+  margin-left: 5%;
+}
+
+.image :hover {
+  opacity: 1;
+  & button {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.hover-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0;
+  transition: all 0.5s;
+
+  & button {
+    z-index: 1000;
+    transition: all 0.5s;
+    transform: translateY(20px);
+  }
 }

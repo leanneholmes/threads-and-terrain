@@ -1,0 +1,22 @@
+<ng-container *ngIf="$any(bcService.breadcrumbs$ | async) as breadcrumbs">
+  <section
+    *ngIf="breadcrumbs[breadcrumbs.length - 1].label !== 'Home'"
+    class="breadcrumb-container"
+    style="margin-top: 135px"
+  >
+    <div class="container">
+      <div class="d-flex justify-content-end">
+        <xng-breadcrumb [separator]="iconTemplate"
+          ><ng-container *xngBreadcrumbItem="let breadcrumb">{{
+            breadcrumb | titlecase
+          }}</ng-container></xng-breadcrumb
+        >
+      </div>
+    </div>
+  </section>
+</ng-container>
+<ng-template #iconTemplate>
+  <div>
+    <img src="../../../assets/images/arrow-right.png" class="arrow-right" />
+  </div>
+</ng-template>
