@@ -72,12 +72,12 @@
     "ProductBrandId": 2
   },
   {
-    "Name": "Cotton Lightweight Henley Top",
-    "Description": "Built to be a staple in your closet for long-lasting wear. This Patagonia lightweight henley top is made of 100% Regenerative Organic Certified™ cotton. The three-button placket lends a clean finish, while the straight hem adds comfort and style.",
-    "Price": 95,
+    "Name": "Crewneck Merino Wool",
+    "Description": "Ski tours, extended backpacking trips, climbing – this is an exceptionally versatile base layer you’ll choose for anything outdoors. Made from soft 240gsm 18.5 Merino wool wrapped around a durable nylon core, it naturally regulates thermal comfort, resists odours and static, and feels comfortable next to your skin. The fit keeps the wool close to your body for maximum effectiveness, elastane fibres add stretch and hold the fit, and articulated patterning gives you freedom to move.",
+    "Price": 130,
     "PictureUrl": "images/products/top-patagonia1.png",
     "ProductTypeId": 2,
-    "ProductBrandId": 1
+    "ProductBrandId": 4
   },
   {
     "Name": "VECTIV Fastpack Hiking Shoe",

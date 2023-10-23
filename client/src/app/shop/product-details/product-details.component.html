@@ -1,13 +1,13 @@
 <div class="container">
   <div class="row" *ngIf="product">
-    <div class="col-6">
+    <div class="col-5">
       <img
         src="{{ product.pictureUrl }}"
         alt="{{ product.name }}"
         class="w-100"
       />
     </div>
-    <div class="col-6 mt-5">
+    <div class="col-6 mt-3">
       <h2>{{ product.name }}</h2>
       <h3 class="product-brand">{{ product.productBrand }}</h3>
       <p style="font-size: 1.3em">{{ product.price | currency }}</p>
