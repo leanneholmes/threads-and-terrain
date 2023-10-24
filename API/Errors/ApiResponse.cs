@@ -22,7 +22,7 @@ namespace API.Errors
             return statusCode switch
             {
                 400 => "Bad request made",
-                401 => "Unaothorized request",
+                401 => "Unauthorized request",
                 404 => "No resource found", 
                 500 => "Bad Gateway",
                 _ => null

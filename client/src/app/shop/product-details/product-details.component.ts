@@ -55,7 +55,11 @@ export class ProductDetailsComponent implements OnInit {
   }
 
   decrementQuantity() {
-    this.quantity--;
+    if (this.quantity >= 1) {
+      this.quantity--;
+    } else {
+      return;
+    }
   }
 
   updateBasket() {
