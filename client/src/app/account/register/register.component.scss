@@ -1,0 +1,13 @@
+.btn-signup {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  &:hover {
+    background-color: #d7b4a8;
+    cursor: pointer;
+  }
+}

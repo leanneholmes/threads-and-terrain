@@ -12,22 +12,24 @@
   text-align: center;
   font-size: 0.7em;
   padding-top: 1px;
-  top: -7px;
+  top: -2px;
   right: 33px;
 }
 
 .nav-links-container {
-  text-transform: uppercase;
-}
-
-.nav-link {
-  margin-right: 45px;
-  margin-left: 45px;
   display: inline;
 }
 
+.nav-link {
+  font-weight: 400;
+  margin-right: 32px;
+  margin-left: 32px;
+  display: inline;
+  position: relative;
+  top: 2px;
+}
+
 .nav-link.active {
-  color: #d7b4a8;
   border-bottom: 2px solid #d7b4a8;
   padding-bottom: 5px;
 }
@@ -45,9 +47,45 @@ a {
 
 .logo {
   cursor: pointer;
+  margin-right: 40px;
 }
 
 .cart-icon {
   width: 32px;
   margin-right: 40px;
+}
+
+.btn-login {
+  font-size: 0.9em;
+  background-color: color;
+  border: 1px solid black;
+  text-transform: uppercase;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: 10px;
+
+  &:hover {
+    background-color: #d7b4a8;
+    color: white;
+    border: 1px solid white;
+  }
+}
+
+.btn-signup {
+  font-size: 0.9em;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+  &:hover {
+    background-color: #d7b4a8;
+    border: 1px solid white;
+  }
 }
