@@ -48,4 +48,31 @@
   color: white;
   text-decoration: none;
   border: none;
+
+  &:hover {
+    background-color: #dea238;
+  }
+}
+
+.brand-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.brand-img {
+  margin-left: 30px;
+  margin-right: 30px;
+  max-width: 130px;
+}
+
+.smaller {
+  max-width: 100px;
+}
+
+.xsmall {
+  max-width: 80px;
+}
+
+.spacer {
+  height: 5px;
 }
