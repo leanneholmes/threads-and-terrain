@@ -135,6 +135,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 * [Font Awesome](https://fontawesome.com)
 * [Bootswatch Themes] (https://bootswatch.com/)
 * https://regexlib.com/?AspxAutoDetectCookieSupport=1
+* [ngx-toastr] https://github.com/scttcper/ngx-toastr
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
