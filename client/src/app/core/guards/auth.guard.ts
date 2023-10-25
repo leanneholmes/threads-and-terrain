@@ -6,7 +6,7 @@ import {
   RouterStateSnapshot,
   UrlTree,
 } from '@angular/router';
-import { Observable, map } from 'rxjs';
+import { map, Observable } from 'rxjs';
 import { AccountService } from 'src/app/account/account.service';
 
 @Injectable({

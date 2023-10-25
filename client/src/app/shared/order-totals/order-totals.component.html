@@ -1,7 +1,7 @@
 <div class="bg-light px-4 py-3 text-uppercase fw-bold">Order summary</div>
 
-<div class="pt-4">
-  <p class="fst-italic">Shipping costs will be calculated at checkout.</p>
+<div class="p-4">
+  <p class="fst-italic mb-4">Shipping costs will be calculated at checkout.</p>
   <ul
     class="list-unstyled mb-4"
     *ngIf="basketService.basketTotalSource$ | async as totals"
@@ -9,8 +9,12 @@
     <li class="d-flex justify-content-between py-3 border-bottom">
       <strong>Order subtotal</strong>
       {{ totals.subtotal | currency }}
+    </li>
+    <li class="d-flex justify-content-between py-3 border-bottom">
       <strong>Shipping and handling</strong>
       {{ totals.shipping | currency }}
+    </li>
+    <li class="d-flex justify-content-between py-3 border-bottom">
       <strong>Total</strong>
       {{ totals.total | currency }}
     </li>
