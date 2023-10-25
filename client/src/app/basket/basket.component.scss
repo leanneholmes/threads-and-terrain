@@ -1,0 +1,40 @@
+.brand {
+  font-weight: 400;
+  font-size: 1.02em;
+}
+
+.minus-icon {
+  color: #d7b4a8;
+  cursor: pointer;
+  font-size: 1.3em;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
+
+  &:hover {
+    color: #c6a99f;
+  }
+}
+
+.plus-icon {
+  color: #d7b4a8;
+  cursor: pointer;
+  font-size: 1.3em;
+  margin-left: 10px;
+  position: relative;
+  top: 1px;
+
+  &:hover {
+    color: #c6a99f;
+  }
+}
+
+.trash-icon {
+  font-size: 1.3em;
+  cursor: pointer;
+  margin-left: 15px;
+
+  &:hover {
+    color: #1f1f1f;
+  }
+}
