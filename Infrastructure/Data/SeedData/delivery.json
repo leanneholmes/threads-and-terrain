@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "ShortName": "CanadaPost1",
+    "Description": "Priority",
+    "DeliveryTime": "Next day",
+    "Price": 45
+  },
+  {
+    "Id": 2,
+    "ShortName": "CanadaPost2",
+    "Description": "Xpresspost",
+    "DeliveryTime": "2 days",
+    "Price": 30
+  },
+  {
+    "Id": 3,
+    "ShortName": "CanadaPost3",
+    "Description": "Regular parcel",
+    "DeliveryTime": "3 - 8 days",
+    "Price": 20
+  },
+  {
+    "Id": 4,
+    "ShortName": "CanadaPost4",
+    "Description": "Free shipping",
+    "DeliveryTime": "5 - 10 days",
+    "Price": 0
+  }
+]
