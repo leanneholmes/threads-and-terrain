@@ -136,6 +136,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 * [Bootswatch Themes] (https://bootswatch.com/)
 * https://regexlib.com/?AspxAutoDetectCookieSupport=1
 * [ngx-toastr] https://github.com/scttcper/ngx-toastr
+* https://www.npmjs.com/package/ngx-owl-carousel-o
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
