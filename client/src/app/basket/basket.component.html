@@ -12,7 +12,9 @@
               <tr>
                 <th><div class="py-2">Product</div></th>
                 <th><div class="py-2">Price</div></th>
-                <th><div class="py-2">Quantity</div></th>
+                <th>
+                  <div class="py-2 text-center quantity-label">Quantity</div>
+                </th>
                 <th><div class="py-2">Total</div></th>
                 <th><div class="py-2">Remove</div></th>
               </tr>
@@ -43,17 +45,19 @@
                 <td class="align-middle">
                   {{ item.price | currency }}
                 </td>
-                <td class="align-middle">
-                  <div class="d-flex align-items-center">
-                    <i
-                      class="fa fa-minus-circle minus-icon"
-                      (click)="removeItem(item.id, 1)"
-                    ></i
-                    ><span class="quantity">{{ item.quantity }}</span
-                    ><i
-                      class="fa fa-plus-circle plus-icon"
-                      (click)="incrementQuantity(item)"
-                    ></i>
+                <td class="align-middle text-center">
+                  <div class="quantity-container">
+                    <div class="minus">
+                      <a class="minus-icon-box" (click)="removeItem(item.id, 1)"
+                        >-</a
+                      >
+                    </div>
+                    <div class="quantity">{{ item.quantity }}</div>
+                    <div class="plus">
+                      <a class="plus-icon-box" (click)="incrementQuantity(item)"
+                        >+</a
+                      >
+                    </div>
                   </div>
                 </td>
                 <td class="align-middle">
@@ -76,7 +80,7 @@
         <div class="col-6 offset-6">
           <app-order-totals></app-order-totals>
           <div class="d-grid">
-            <a routerLink="/checkout" class="btn btn-outline-primary py-2"
+            <a routerLink="/checkout" class="btn-checkout"
               >Proceed to Checkout</a
             >
           </div>
