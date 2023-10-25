@@ -9,12 +9,47 @@
 </div>
 
 <div class="brand-container">
-  <h5 class="mb-4">Featured Brands</h5>
+  <h5 class="mb-2">Featured Brands</h5>
   <div class="spacer"></div>
-  <img src="../../assets/images/brand-1.png" class="brand-img smaller" />
-  <img src="../../assets/images/brand-3.png" class="brand-img smaller" />
-  <img src="../../assets/images/brand-2.png" class="brand-img" />
-
-  <img src="../../assets/images/brand-4.png" class="brand-img smaller" />
-  <img src="../../assets/images/brand-5.png" class="brand-img" />
+  <div class="container text-center justify-content-center">
+    <div class="row align-items-center">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-1">
+        <a (click)="owlCar.prev()" class="left-arrow"
+          ><i class="fa fa-chevron-left me-3 fa-lg"></i
+        ></a>
+      </div>
+      <div class="col-sm-8">
+        <owl-carousel-o [options]="customOptions" #owlCar>
+          <ng-template carouselSlide
+            ><img src="../../assets/images/brand-1-sq.png" style="width: 100px"
+          /></ng-template>
+          <ng-template carouselSlide
+            ><img src="../../assets/images/brand-3-sq.png" style="width: 100px"
+          /></ng-template>
+          <ng-template carouselSlide
+            ><img src="../../assets/images/brand-2-sq.png" style="width: 120px"
+          /></ng-template>
+          <ng-template carouselSlide
+            ><img src="../../assets/images/brand-7-sq.png" style="width: 100px"
+          /></ng-template>
+          <ng-template carouselSlide
+            ><img src="../../assets/images/brand-5-sq.png" style="width: 120px"
+          /></ng-template>
+          <ng-template carouselSlide
+            ><img src="../../assets/images/brand-6-sq.png" style="width: 80px"
+          /></ng-template>
+          <ng-template carouselSlide
+            ><img src="../../assets/images/brand-4-sq.png" style="width: 100px"
+          /></ng-template>
+        </owl-carousel-o>
+      </div>
+      <div class="col-sm-1">
+        <a class="btn btn-success" (click)="owlCar.next()" class="right-arrow"
+          ><i class="fa fa-chevron-right me-3 fa-lg"></i
+        ></a>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+  </div>
 </div>
