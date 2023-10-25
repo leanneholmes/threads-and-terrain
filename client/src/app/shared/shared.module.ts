@@ -10,6 +10,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TextInputComponent } from './components/text-input/text-input.component';
 import { RouterModule } from '@angular/router';
 import { CdkStepperModule } from '@angular/cdk/stepper';
+import { StepperComponent } from './components/stepper/stepper.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { CdkStepperModule } from '@angular/cdk/stepper';
     PagerComponent,
     OrderTotalsComponent,
     TextInputComponent,
+    StepperComponent,
   ],
   imports: [
     CommonModule,
@@ -36,6 +38,7 @@ import { CdkStepperModule } from '@angular/cdk/stepper';
     ReactiveFormsModule,
     BsDropdownModule,
     TextInputComponent,
+    StepperComponent,
     CdkStepperModule,
   ],
 })

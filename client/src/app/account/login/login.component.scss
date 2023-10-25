@@ -11,3 +11,14 @@
     cursor: pointer;
   }
 }
+
+.link-signup {
+  text-decoration: none;
+  color: #d7b4a8;
+  font-weight: 500;
+
+  &:hover {
+    border-bottom: 2px solid #d7b4a8;
+    padding-bottom: 3px;
+  }
+}

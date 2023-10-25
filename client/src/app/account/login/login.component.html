@@ -20,13 +20,9 @@
         </button>
       </div>
     </form>
-    <div class="text-center mt-4">Not registered? Sign up here</div>
-    <div class="col-4 ms-5">
-      <p>Form Status: {{ loginForm.status }}</p>
-      <p>Email Status: {{ loginForm.get("email")?.status }}</p>
-      <p>Email Touched Status: {{ loginForm.get("email")?.touched }}</p>
-      <p>Email Dirty Status: {{ loginForm.get("email")?.dirty }}</p>
-      <pre>{{ loginForm.value | json }}</pre>
+    <div class="text-center mt-4">
+      Not registered?
+      <a class="link-signup" routerLink="/account/register">Sign up here</a>
     </div>
   </div>
 </div>
