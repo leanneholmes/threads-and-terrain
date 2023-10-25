@@ -73,7 +73,7 @@ Major frameworks/libraries used for the project were:
 * Docker
 * [![NET][NET]][NET-url]
 * [![CSharp][CSharp]][CSharp-url]
-* SQL
+* Postgres
 * [![Stripe][Stripe]][Stripe-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
