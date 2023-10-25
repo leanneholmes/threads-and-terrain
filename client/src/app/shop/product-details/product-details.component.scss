@@ -69,16 +69,21 @@
   padding-right: 20px;
   margin-left: 10px;
   color: #d7b4a8;
-  background: url("../../../assets/images/add-shopping-cart-15.png");
+  background: url("../../../assets/images/shopping-bag-15.png");
   background-repeat: no-repeat;
-  background-position: bottom 13px right 100px;
+  background-position: bottom 14px right 117px;
 
   &:hover {
-    background: url("../../../assets/images/add-shopping-cart-white.png");
+    background: url("../../../assets/images/shopping-bag-white-15.png");
     background-repeat: no-repeat;
-    background-position: bottom 13px right 100px;
+    background-position: bottom 14px right 117px;
     background-color: #d7b4a8;
     color: white;
     cursor: pointer;
   }
+}
+
+.text-quantity {
+  color: #5d6699;
+  font-weight: 500;
 }

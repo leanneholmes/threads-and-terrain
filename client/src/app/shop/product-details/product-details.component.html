@@ -11,10 +11,10 @@
       <h2>{{ product.name }}</h2>
       <h3 class="product-brand">{{ product.productBrand }}</h3>
       <p style="font-size: 1.3em">{{ product.price | currency }}</p>
-      <h5 class="text-primary mb-3" *ngIf="quantityInBasket > 0">
+      <span class="text-quantity" *ngIf="quantityInBasket > 0">
         You have {{ quantityInBasket }} of this item in your basket
-      </h5>
-      <div class="d-flex justify-content-start align-items-center">
+      </span>
+      <div class="d-flex justify-content-start align-items-center mt-3">
         Quantity:
         <div class="quantity-container">
           <div class="minus">

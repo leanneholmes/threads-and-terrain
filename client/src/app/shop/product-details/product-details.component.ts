@@ -55,7 +55,7 @@ export class ProductDetailsComponent implements OnInit {
   }
 
   decrementQuantity() {
-    if (this.quantity >= 1) {
+    if (this.quantity > 1) {
       this.quantity--;
     } else {
       return;
@@ -70,13 +70,13 @@ export class ProductDetailsComponent implements OnInit {
         this.basketService.addItemToBasket(this.product, itemsToAdd);
       } else {
         const itemsToRemove = this.quantityInBasket - this.quantity;
-        this.quantityInBasket == itemsToRemove;
+        this.quantityInBasket -= itemsToRemove;
         this.basketService.removeItemFromBasket(this.product.id, itemsToRemove);
       }
     }
   }
 
   get buttonText() {
-    return this.quantityInBasket === 0 ? 'Add To Cart' : 'Update Cart';
+    return this.quantityInBasket === 0 ? 'Add To Basket' : 'Update Basket';
   }
 }
