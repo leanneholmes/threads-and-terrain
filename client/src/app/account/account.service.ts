@@ -1,10 +1,9 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
-import { ReplaySubject, map, of } from 'rxjs';
+import { map, of, ReplaySubject } from 'rxjs';
 import { environment } from 'src/environments/environment';
 import { Address, User } from '../shared/models/user';
-import { AbstractControl, AsyncValidatorFn } from '@angular/forms';
 
 @Injectable({
   providedIn: 'root',
@@ -17,12 +16,13 @@ export class AccountService {
   constructor(private http: HttpClient, private router: Router) {}
 
   loadCurrentUser(token: string | null) {
-    if (token === null) {
+    if (token == null) {
       this.currentUserSource.next(null);
       return of(null);
     }
+
     let headers = new HttpHeaders();
-    headers = headers.set('Authorization', `Bearer $(token)`);
+    headers = headers.set('Authorization', `Bearer ${token}`);
 
     return this.http.get<User>(this.baseUrl + 'account', { headers }).pipe(
       map((user) => {
