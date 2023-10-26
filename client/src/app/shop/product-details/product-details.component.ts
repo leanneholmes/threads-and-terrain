@@ -5,6 +5,7 @@ import { ActivatedRoute } from '@angular/router';
 import { BreadcrumbService } from 'xng-breadcrumb';
 import { BasketService } from 'src/app/basket/basket.service';
 import { take } from 'rxjs';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-product-details',
@@ -20,7 +21,8 @@ export class ProductDetailsComponent implements OnInit {
     private shopService: ShopService,
     private activatedRoute: ActivatedRoute,
     private basketService: BasketService,
-    private bcService: BreadcrumbService
+    private bcService: BreadcrumbService,
+    private toastr: ToastrService
   ) {
     this.bcService.set('@productDetails', ' ');
   }
@@ -68,10 +70,12 @@ export class ProductDetailsComponent implements OnInit {
         const itemsToAdd = this.quantity - this.quantityInBasket;
         this.quantityInBasket += itemsToAdd;
         this.basketService.addItemToBasket(this.product, itemsToAdd);
+        this.toastr.success('Basket updated!');
       } else {
         const itemsToRemove = this.quantityInBasket - this.quantity;
         this.quantityInBasket -= itemsToRemove;
         this.basketService.removeItemFromBasket(this.product.id, itemsToRemove);
+        this.toastr.success('Basket updated!');
       }
     }
   }

@@ -12,9 +12,15 @@ import { LoadingInterceptor } from './core/interceptors/loading.interceptor';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { JwtInterceptor } from './core/interceptors/jwt.interceptor';
+import { OrderDetailedComponent } from './order-detailed/order-detailed.component';
 
 @NgModule({
-  declarations: [AppComponent, AboutComponent, ContactComponent],
+  declarations: [
+    AppComponent,
+    AboutComponent,
+    ContactComponent,
+    OrderDetailedComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

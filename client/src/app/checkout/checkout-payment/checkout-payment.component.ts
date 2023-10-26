@@ -33,7 +33,6 @@ export class CheckoutPaymentComponent {
         this.basketService.deleteLocalBasket();
         const navigationExtras: NavigationExtras = { state: order };
         this.Router.navigate(['checkout/success'], navigationExtras);
-        console.log(order);
       },
     });
   }
