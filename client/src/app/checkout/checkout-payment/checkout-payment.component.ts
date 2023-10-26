@@ -6,6 +6,7 @@ import { ToastrService } from 'ngx-toastr';
 import { Basket } from 'src/app/shared/models/basket';
 import { Address } from 'src/app/shared/models/user';
 import { NavigationExtras, Router } from '@angular/router';
+import { Order } from 'src/app/shared/models/order';
 
 @Component({
   selector: 'app-checkout-payment',
@@ -28,7 +29,7 @@ export class CheckoutPaymentComponent {
     const orderToCreate = this.getOrderToCreate(basket);
     if (!orderToCreate) return;
     this.checkoutService.createOrder(orderToCreate).subscribe({
-      next: (order) => {
+      next: (order?: Order) => {
         this.toastr.success('Order placed successfully');
         this.basketService.deleteLocalBasket();
         const navigationExtras: NavigationExtras = { state: order };

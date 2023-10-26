@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { Order } from 'src/app/shared/models/order';
 import { BreadcrumbService } from 'xng-breadcrumb';
 import { OrdersService } from '../orders/orders.service';
-import { take } from 'rxjs';
 
 @Component({
   selector: 'app-order-detailed',
