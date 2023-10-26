@@ -1,5 +1,8 @@
 <div class="container" style="margin-top: 140px">
-  <div *ngIf="(basketService.basketSource$ | async) === null">
+  <div
+    *ngIf="(basketService.basketSource$ | async) === null"
+    style="margin-bottom: 300px"
+  >
     <p>There are no items in your shopping cart</p>
   </div>
 

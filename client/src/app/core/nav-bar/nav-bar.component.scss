@@ -88,3 +88,24 @@ a {
     border: 1px solid white;
   }
 }
+
+.dropdown-menu-right {
+  border-radius: 0;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.dropdown-label {
+  margin-left: 10px;
+}
+
+.dropdown-icon {
+  width: 15px;
+  margin-right: 15px;
+}
+
+.dropdown-icon-history {
+  width: 18px;
+  margin-left: -2px;
+  margin-right: 14px;
+}
