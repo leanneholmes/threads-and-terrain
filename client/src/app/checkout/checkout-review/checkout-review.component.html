@@ -1,1 +1,72 @@
-<p>checkout-review works!</p>
+<div class="mt-4">
+  <div
+    class="table-responsive"
+    *ngIf="basketService.basketSource$ | async as basket"
+  >
+    <table class="table">
+      <thead class="bg-light text-uppercase">
+        <tr>
+          <th><div class="py-2">Product</div></th>
+          <th><div class="py-2">Price</div></th>
+          <th class="text-center">
+            <div class="py-2 text-center quantity-label">Quantity</div>
+          </th>
+          <th><div class="py-2">Total</div></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of basket.items">
+          <th>
+            <div class="p-2 d-inline-block">
+              <a routerLink="../shop/{{ item.id }}">
+                <img
+                  src="{{ item.pictureUrl }}"
+                  alt="{{ item.productName }}"
+                  class="img-fluid"
+                  style="max-height: 80px"
+              /></a>
+              <div class="ms-3 d-inline-block align-middle">
+                <h6 class="mb-0">
+                  <a
+                    routerLink="../shop/{{ item.id }}"
+                    class="text-dark text-decoration-none"
+                    >{{ item.productName }}</a
+                  >
+                </h6>
+                <span class="brand">{{ item.brand }}</span>
+              </div>
+            </div>
+          </th>
+          <td class="align-middle">
+            {{ item.price | currency }}
+          </td>
+          <td class="align-middle text-center">
+            <div class="quantity">
+              {{ item.quantity }}
+            </div>
+          </td>
+          <td class="align-middle">
+            {{ item.price * item.quantity | currency }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="d-flex justify-content-between flex-row mb-5">
+  <button class="btn-delivery" cdkStepperPrevious>
+    <img
+      src="../../../assets/images/arrow-left-circled.png"
+      class="left-arrow"
+    />
+    Back to delivery
+  </button>
+  <button class="btn-payment" cdkStepperNext>
+    Payment method
+    <img
+      src="../../../assets/images/arrow-right-circled.png"
+      class="right-arrow"
+    />
+  </button>
+</div>

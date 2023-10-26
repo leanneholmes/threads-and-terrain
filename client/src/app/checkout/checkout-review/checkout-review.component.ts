@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BasketService } from 'src/app/basket/basket.service';
 
 @Component({
   selector: 'app-checkout-review',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./checkout-review.component.scss']
 })
 export class CheckoutReviewComponent {
-
+  constructor(public basketService: BasketService) {}
 }

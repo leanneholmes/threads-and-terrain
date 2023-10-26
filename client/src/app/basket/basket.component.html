@@ -6,75 +6,10 @@
   <ng-container *ngIf="basketService.basketSource$ | async as basket"
     ><div class="container">
       <div class="row">
-        <div class="table-responsive">
-          <table class="table">
-            <thead class="bg-light text-uppercase">
-              <tr>
-                <th><div class="py-2">Product</div></th>
-                <th><div class="py-2">Price</div></th>
-                <th>
-                  <div class="py-2 text-center quantity-label">Quantity</div>
-                </th>
-                <th><div class="py-2">Total</div></th>
-                <th><div class="py-2">Remove</div></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr *ngFor="let item of basket.items">
-                <th>
-                  <div class="p-2 d-inline-block">
-                    <a routerLink="../shop/{{ item.id }}">
-                      <img
-                        src="{{ item.pictureUrl }}"
-                        alt="{{ item.productName }}"
-                        class="img-fluid"
-                        style="max-height: 100px"
-                    /></a>
-                    <div class="ms-3 d-inline-block align-middle">
-                      <h5 class="mb-0">
-                        <a
-                          routerLink="../shop/{{ item.id }}"
-                          class="text-dark text-decoration-none"
-                          >{{ item.productName }}</a
-                        >
-                      </h5>
-                      <span class="brand">{{ item.brand }}</span>
-                    </div>
-                  </div>
-                </th>
-                <td class="align-middle">
-                  {{ item.price | currency }}
-                </td>
-                <td class="align-middle text-center">
-                  <div class="quantity-container">
-                    <div class="minus">
-                      <a class="minus-icon-box" (click)="removeItem(item.id, 1)"
-                        >-</a
-                      >
-                    </div>
-                    <div class="quantity">{{ item.quantity }}</div>
-                    <div class="plus">
-                      <a class="plus-icon-box" (click)="incrementQuantity(item)"
-                        >+</a
-                      >
-                    </div>
-                  </div>
-                </td>
-                <td class="align-middle">
-                  {{ item.price * item.quantity | currency }}
-                </td>
-                <td class="align-middle">
-                  <a
-                    ><i
-                      class="fa fa-trash trash-icon"
-                      (click)="removeItem(item.id, item.quantity)"
-                    ></i
-                  ></a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <app-basket-summary
+          (addItem)="incrementQuantity($event)"
+          (removeItem)="removeItem($event)"
+        ></app-basket-summary>
       </div>
       <div class="row">
         <div class="col-6 offset-6">

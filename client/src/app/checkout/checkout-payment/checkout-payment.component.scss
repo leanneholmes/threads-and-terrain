@@ -1,0 +1,43 @@
+.btn-review {
+  border: none;
+  background: none;
+  font-weight: 600;
+}
+
+.left-arrow {
+  width: 16px;
+  position: relative;
+  bottom: 1px;
+  margin-right: 2px;
+}
+
+// .btn-submit {
+//   border: none;
+//   background: none;
+//   font-weight: 600;
+// }
+
+.right-arrow {
+  width: 16px;
+  position: relative;
+  bottom: 1px;
+  margin-left: 2px;
+}
+
+.btn-submit {
+  border: 1px solid #626699;
+  color: #fff;
+  background-color: #626699;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 12px;
+  font-weight: 500;
+  border-radius: 3px;
+
+  &:hover {
+    background-color: #7a7eb3;
+    border: 1px solid #7a7eb3;
+  }
+}

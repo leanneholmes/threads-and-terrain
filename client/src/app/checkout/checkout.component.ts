@@ -19,7 +19,7 @@ export class CheckoutComponent {
       postalcode: ['', Validators.required],
     }),
     deliveryForm: this.fb.group({
-      deliveyrMethod: ['', Validators.required],
+      deliveryMethod: ['', Validators.required],
     }),
     paymentForm: this.fb.group({
       nameOnCard: ['', Validators.required],
