@@ -1,0 +1,43 @@
+.btn-save {
+  border: 1px solid #626699;
+  color: #fff;
+  background-color: #626699;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  border-radius: 3px;
+
+  &:hover {
+    color: #626699;
+    background-color: white;
+  }
+}
+
+.btn-basket {
+  border: none;
+  background: none;
+  font-weight: 600;
+}
+
+.left-arrow {
+  width: 16px;
+  position: relative;
+  bottom: 1px;
+  margin-right: 2px;
+}
+
+.btn-delivery {
+  border: none;
+  background: none;
+  font-weight: 600;
+}
+
+.right-arrow {
+  width: 16px;
+  position: relative;
+  bottom: 1px;
+  margin-left: 2px;
+}

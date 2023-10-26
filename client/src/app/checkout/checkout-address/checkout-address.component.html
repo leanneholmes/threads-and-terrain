@@ -1,0 +1,62 @@
+<div class="mt-4" *ngIf="checkoutForm" [formGroup]="checkoutForm">
+  <div class="d-flex justify-content-between align-items-center">
+    <h4>Shipping address</h4>
+    <button class="btn-save">Save address as default</button>
+  </div>
+  <div class="row" formGroupName="addressForm">
+    <div class="form-group col-6">
+      <app-text-input
+        [label]="'First name'"
+        formControlName="firstName"
+      ></app-text-input>
+    </div>
+    <div class="form-group col-6">
+      <app-text-input
+        [label]="'Last name'"
+        formControlName="lastName"
+      ></app-text-input>
+    </div>
+    <div class="form-group col-6">
+      <app-text-input
+        [label]="'Street'"
+        formControlName="street"
+      ></app-text-input>
+    </div>
+    <div class="form-group col-6">
+      <app-text-input [label]="'City'" formControlName="city"></app-text-input>
+    </div>
+    <div class="form-group col-6">
+      <app-text-input
+        [label]="'Province'"
+        formControlName="province"
+      ></app-text-input>
+    </div>
+    <div class="form-group col-6">
+      <app-text-input
+        [label]="'Postal code'"
+        formControlName="postalcode"
+      ></app-text-input>
+    </div>
+  </div>
+</div>
+
+<div class="d-flex justify-content-between flex-row mb-5">
+  <button class="btn-basket" routerLink="/basket">
+    <img
+      src="../../../assets/images/arrow-left-circled.png"
+      class="left-arrow"
+    />
+    Back to basket
+  </button>
+  <button
+    [disabled]="checkoutForm?.get('addressForm')?.invalid"
+    class="btn-delivery"
+    cdkStepperNext
+  >
+    Delivery method
+    <img
+      src="../../../assets/images/arrow-right-circled.png"
+      class="right-arrow"
+    />
+  </button>
+</div>
