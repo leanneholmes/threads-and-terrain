@@ -1,3 +1,33 @@
 .left-col {
   padding-right: 40px;
 }
+
+.search-input {
+  display: inline-block;
+  border-radius: 4px;
+  padding-right: 180px;
+  margin-right: 20px;
+}
+
+.btn-search {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 80px;
+  margin-left: -95px;
+  border-left: 1px solid lightgrey;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 0px 4px 4px 0px;
+  color: white;
+  background-color: #626699;
+  font-weight: 500;
+}
+
+.btn-reset {
+  margin-left: 10px;
+  border: none;
+  background: none;
+  font-weight: 500;
+  font-size: 0.9em;
+}

@@ -7,7 +7,7 @@
           {{ sort.name }}
         </option>
       </select>
-      <h5 class="text-warning ms-3">Brands</h5>
+      <h5>Brands</h5>
       <ul class="list-group my-3">
         <li
           class="list-group-item"
@@ -19,7 +19,7 @@
           {{ brand.name }}
         </li>
       </ul>
-      <h5 class="text-warning ms-3">Types</h5>
+      <h5>Types</h5>
       <ul class="list-group my-3">
         <li
           class="list-group-item"
@@ -40,19 +40,17 @@
           [pageSize]="shopParams.pageSize"
         ></app-paging-header>
         <div class="d-flex mt-2">
-          <input
-            (keyup.enter)="onSearch()"
-            type="text"
-            placeholder="Search"
-            class="form-control me-2"
-            #search
-          />
-          <button (click)="onSearch()" class="btn btn-outline-primary mx-2">
-            Search
-          </button>
-          <button (click)="onReset()" class="btn btn-outline-success">
+            <input
+              (keyup.enter)="onSearch()"
+              type="text"
+              placeholder="Search products..."
+              class="form-control search-input"
+              #search
+            />
+            <button (click)="onSearch()" class="btn-search">Search</button>
+          <!-- <button (click)="onReset()" class="btn-reset">
             Reset
-          </button>
+          </button> -->
         </div>
       </div>
       <div class="row row-cols-3 g-3 mb-4">

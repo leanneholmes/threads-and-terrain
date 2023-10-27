@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { ToastrService } from 'ngx-toastr';
+import { CdkStepper } from '@angular/cdk/stepper';
+import { Component, Input } from '@angular/core';
 import { BasketService } from 'src/app/basket/basket.service';
 
 @Component({
@@ -8,15 +8,15 @@ import { BasketService } from 'src/app/basket/basket.service';
   styleUrls: ['./checkout-review.component.scss'],
 })
 export class CheckoutReviewComponent {
-  constructor(
-    public basketService: BasketService,
-    private toastr: ToastrService
-  ) {}
+  @Input() appStepper?: CdkStepper;
+
+  constructor(public basketService: BasketService) {}
 
   createPaymentIntent() {
     this.basketService.createPaymentIntent().subscribe({
-      next: () => this.toastr.success('Payment intent created'),
-      error: (error) => this.toastr.error(error.message),
+      next: () => {
+        this.appStepper?.next();
+      },
     });
   }
 }

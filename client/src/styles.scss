@@ -19,3 +19,13 @@
   padding-left: 2px;
   padding-right: 2px;
 }
+
+.page-link {
+  color: black;
+}
+
+.pagination > .active > a {
+  color: white;
+  background-color: #626699 !important;
+  border: solid 1px #626699 !important;
+}
