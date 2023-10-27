@@ -1,36 +1,73 @@
 <div class="container">
   <div class="row" *ngIf="types.length > 0 && brands.length > 0">
     <section class="col-3 left-col">
-      <h5 class="text-warning ms-3">Sort</h5>
-      <select class="form-select mb-4" (change)="onSortSelected($event)">
-        <option *ngFor="let sort of sortOptions" [value]="sort.value">
-          {{ sort.name }}
-        </option>
-      </select>
-      <h5>Brands</h5>
-      <ul class="list-group my-3">
-        <li
-          class="list-group-item"
-          *ngFor="let brand of brands"
-          [class.active]="brand.id === shopParams.brandId"
-          [value]="brand.id"
-          (click)="onBrandSelected(brand.id)"
-        >
-          {{ brand.name }}
-        </li>
-      </ul>
-      <h5>Types</h5>
-      <ul class="list-group my-3">
-        <li
-          class="list-group-item"
-          *ngFor="let type of types"
-          [class.active]="type.id === shopParams.typeId"
-          [value]="type.id"
-          (click)="onTypeSelected(type.id)"
-        >
-          {{ type.name }}
-        </li>
-      </ul>
+      <div class="d-flex align-items-center mb-4 sort-container">
+        <div class="sort-label">
+          <strong>Sort by:</strong>
+        </div>
+        <select class="sort-menu flex-fill" (change)="onSortSelected($event)">
+          <option *ngFor="let sort of sortOptions" [value]="sort.value">
+            {{ sort.name }}
+          </option>
+        </select>
+      </div>
+      <button
+        class="collapse-header d-flex justify-content-between w-100 align-items-center"
+        (click)="isBrandCollapsed = !isBrandCollapsed"
+        [attr.aria-expanded]="!isBrandCollapsed"
+        aria-controls="collapseBasic"
+      >
+        <h5>Brands</h5>
+        <img
+          src="../../assets/images/chevron-down-arrow.png"
+          class="chevron-down"
+        />
+      </button>
+
+      <div id="collapseBasic" [collapse]="isBrandCollapsed" [isAnimated]="true">
+        <div class="brand-list">
+          <button
+            class="list-group-item"
+            *ngFor="let brand of brands"
+            [class.active]="brand.id === shopParams.brandId"
+            [value]="brand.id"
+            (click)="onBrandSelected(brand.id)"
+          >
+            {{ brand.name }}
+          </button>
+        </div>
+        <div class="hr-spacer"></div>
+        <hr />
+      </div>
+      <div class="py-2"></div>
+      <button
+        class="collapse-header types d-flex justify-content-between w-100 align-items-center"
+        (click)="isTypeCollapsed = !isTypeCollapsed"
+        [attr.aria-expanded]="!isTypeCollapsed"
+        aria-controls="collapseBasic"
+      >
+        <h5>Types</h5>
+        <img
+          src="../../assets/images/chevron-down-arrow.png"
+          class="chevron-down"
+        />
+      </button>
+
+      <div id="collapseBasic" [collapse]="isTypeCollapsed" [isAnimated]="true">
+        <div>
+          <div class="brand-list">
+            <button
+              class="list-group-item"
+              *ngFor="let type of types"
+              [class.active]="type.id === shopParams.typeId"
+              [value]="type.id"
+              (click)="onTypeSelected(type.id)"
+            >
+              {{ type.name }}
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="col-9">
       <div class="d-flex justify-content-between align-items-center pb-2">
@@ -40,14 +77,14 @@
           [pageSize]="shopParams.pageSize"
         ></app-paging-header>
         <div class="d-flex mt-2">
-            <input
-              (keyup.enter)="onSearch()"
-              type="text"
-              placeholder="Search products..."
-              class="form-control search-input"
-              #search
-            />
-            <button (click)="onSearch()" class="btn-search">Search</button>
+          <input
+            (keyup.enter)="onSearch()"
+            type="text"
+            placeholder="Search products..."
+            class="form-control search-input"
+            #search
+          />
+          <button (click)="onSearch()" class="btn-search">Search</button>
           <!-- <button (click)="onReset()" class="btn-reset">
             Reset
           </button> -->

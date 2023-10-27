@@ -12,6 +12,8 @@ import { RouterModule } from '@angular/router';
 import { CdkStepperModule } from '@angular/cdk/stepper';
 import { StepperComponent } from './components/stepper/stepper.component';
 import { BasketSummaryComponent } from './basket-summary/basket-summary.component';
+import { AccordionModule } from 'ngx-bootstrap/accordion';
+import { CollapseModule } from 'ngx-bootstrap/collapse';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,7 @@ import { BasketSummaryComponent } from './basket-summary/basket-summary.componen
     BsDropdownModule.forRoot(),
     RouterModule,
     CdkStepperModule,
+    CollapseModule.forRoot()
   ],
   exports: [
     PaginationModule,
@@ -43,6 +46,7 @@ import { BasketSummaryComponent } from './basket-summary/basket-summary.componen
     StepperComponent,
     CdkStepperModule,
     BasketSummaryComponent,
+    CollapseModule
   ],
 })
 export class SharedModule {}

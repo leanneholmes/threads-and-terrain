@@ -31,3 +31,57 @@
   font-weight: 500;
   font-size: 0.9em;
 }
+
+.collapse-header {
+  background-color: white;
+  border: none;
+}
+
+.chevron-down {
+  width: 12px;
+  margin-right: 5px;
+}
+
+.brand-list {
+  border: none;
+}
+
+.list-group-item {
+  margin-left: 12px;
+  font-size: 1.05em;
+  margin-bottom: 3px;
+  color: #9e9e9e;
+  &:hover {
+    color: #d7b4a8;
+    font-weight: 400;
+  }
+}
+
+.list-group-item.active {
+  font-weight: 600;
+}
+
+.hr-spacer {
+  height: 5px;
+}
+
+.types {
+  margin-top: -8px;
+}
+
+.sort-container {
+  margin-top: 12px;
+}
+
+.sort-label {
+  margin-right: 10px;
+}
+.sort-menu {
+  width: 60%;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  margin-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+}

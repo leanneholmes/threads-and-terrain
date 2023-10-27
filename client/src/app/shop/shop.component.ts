@@ -16,8 +16,10 @@ export class ShopComponent implements OnInit {
   brands: Brand[] = [];
   types: Type[] = [];
   shopParams = new ShopParams();
+  isTypeCollapsed = false;
+  isBrandCollapsed = false;
   sortOptions = [
-    { name: 'Alphabetical', value: 'name' },
+    { name: 'Default', value: 'name' },
     { name: 'Price: Low to high', value: 'priceAsc' },
     { name: 'Price: High to Low', value: 'priceDesc' },
   ];
