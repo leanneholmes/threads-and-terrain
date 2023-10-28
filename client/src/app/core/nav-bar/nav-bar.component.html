@@ -49,14 +49,14 @@
         </a>
         <ul *dropdownMenu class="dropdown-menu dropdown-menu-right">
           <li class="py-1">
-            <a routerLink="/cart" class="dropdown-item">
+            <a routerLink="/basket" class="dropdown-item">
               <img
                 src="../../../assets/images/shopping-bag-filled.png"
                 class="dropdown-icon"
               /><span class="dropdown-label">View basket</span>
             </a>
           </li>
-          <li class="py-1">
+          <li class="py-1 dropdown-menu-item">
             <a routerLink="/orders" class="dropdown-item">
               <img
                 src="../../../assets/images/history.png"
@@ -69,9 +69,9 @@
           <li>
             <a (click)="accountService.logout()" class="dropdown-item">
               <img
-              src="../../../assets/images/signout.png"
-              class="dropdown-icon"
-            />
+                src="../../../assets/images/signout.png"
+                class="dropdown-icon"
+              />
               <span class="dropdown-label">Logout</span>
             </a>
           </li>

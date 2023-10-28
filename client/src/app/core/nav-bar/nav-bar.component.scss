@@ -109,3 +109,10 @@ a {
   margin-left: -2px;
   margin-right: 14px;
 }
+
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  background-color: #ececec;
+  color: black;
+}
