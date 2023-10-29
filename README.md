@@ -41,7 +41,7 @@
 <div align="center">
 <img src="https://assets-global.website-files.com/651909e5222ad9249885d9ad/653e06cfebd7182c1f7d3cd4_threads-and-terrain-1.jpg" alt="Screenshot" width="500">
 </div>
-
+<p></p>
 <p>Threads&Terrain is a fictional e-commerce application where users can browse and shop for outdoor gear and athletic apparel. The app features authentication, a shopping basket and full checkout system with Stripe payment integration. </p>
 
 Features list: 
