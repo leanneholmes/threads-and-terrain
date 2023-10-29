@@ -7,7 +7,7 @@
     <img src="/client/src/assets/images/figma-logo.png" alt="Logo" width="300">
   </a>
 
-  <h3 align="center">threads&terrain</h3>
+  <h3 align="center">threads&terrain</h3><p></p>
 
   <p align="center">
     A full-stack Ecommerce store built with Angular and .NET
