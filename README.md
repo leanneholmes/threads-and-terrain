@@ -72,7 +72,7 @@ Major frameworks/libraries used for the project were:
 * [![NET][NET]][NET-url]
 * [![CSharp][CSharp]][CSharp-url]
 * [![Postgres][Postgres]][Postgres-url]
-* Redis
+* [![Redis][Redis]][Redis-url]
 * Docker
 * [![Stripe][Stripe]][Stripe-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
@@ -134,7 +134,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 * [Img Shields](https://shields.io)
 * [Font Awesome](https://fontawesome.com)
 * [Bootswatch Themes] (https://bootswatch.com/)
-* https://regexlib.com/?AspxAutoDetectCookieSupport=1
+* https://regexlib.com/
 * [ngx-toastr] https://github.com/scttcper/ngx-toastr
 * https://www.npmjs.com/package/ngx-owl-carousel-o
 
@@ -150,12 +150,10 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
 [stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[Docker]: https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white
+[Docker-url]: https://www.docker.com/
+[Redis]: https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=Redis&logoColor=white
+[Redis-url]: https://redis.com/
 [product-screenshot]: images/screenshot.png
 [Postgres]: https://img.shields.io/badge/Postgresql-4169E1?style=for-the-badge&logo=Postgresql&logoColor=white
 [Postgres-url]: https://www.postgresql.org/
