@@ -26,17 +26,9 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+    <li><a href="#demo">Demo</a>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -46,18 +38,19 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+<div align="center">
 <img src="https://assets-global.website-files.com/651909e5222ad9249885d9ad/653e06cfebd7182c1f7d3cd4_threads-and-terrain-1.jpg" alt="Screenshot" width="500">
+</div>
 
-Threads&Terrain is a fictional e-commerce application where users can browse for outdoor gear and athletic apparel. The app features authentication, a shopping basket and full checkout system with Stripe payment integration. 
+Threads&Terrain is a fictional e-commerce application where users can browse and shop for outdoor gear and athletic apparel. The app features authentication, a shopping basket and full checkout system with Stripe payment integration. 
 
 Features list: 
-*User authentication
-*Product sorting and filtering
-*Add, modify, remove item quantities in basket
-*Checkout system with persistent storage
-*Stripe payment processing
-*Order history
+* User authentication
+* Product sorting and filtering
+* Add, modify, remove item quantities in basket
+* Checkout system with persistent storage
+* Stripe payment processing
+* Order history
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -85,22 +78,9 @@ Major frameworks/libraries used for the project were:
 
 ## Demo
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+A video demonstration of the app can be found <a href="https://www.youtube.com/watch?v=9-JTgnlE4LE">here.</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
