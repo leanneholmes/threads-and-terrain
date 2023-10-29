@@ -10,7 +10,7 @@
   <h3 align="center">threads&terrain</h3>
 
   <p align="center">
-    A mock ecommerce store built with Angular and .NET 
+    A full-stack Ecommerce store built with Angular and .NET
   </p>
 </div>
 
@@ -47,16 +47,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="https://assets-global.website-files.com/651909e5222ad9249885d9ad/653e06cfebd7182c1f7d3cd4_threads-and-terrain-1.jpg" alt="Screenshot" width="500">
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Threads&Terrain is a fictional e-commerce application where users can browse for outdoor gear and athletic apparel. The app features authentication, a shopping basket and full checkout system with Stripe payment integration. 
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Features list: 
+*User authentication
+*Product sorting and filtering
+*Add, modify, remove item quantities in basket
+*Checkout system with persistent storage
+*Stripe payment processing
+*Order history
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -73,7 +74,7 @@ Major frameworks/libraries used for the project were:
 * [![CSharp][CSharp]][CSharp-url]
 * [![Postgres][Postgres]][Postgres-url]
 * [![Redis][Redis]][Redis-url]
-* Docker
+* [![Docker][Docker]][Docker-url]
 * [![Stripe][Stripe]][Stripe-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
@@ -105,13 +106,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [ ] Deploy on web
+- [ ] Caching to improve performance
+- [ ] Favorites list
+- [ ] Responsive front end
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +119,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 Leanne Holmes - lvholmes@ualberta.ca
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Page: [https://www.leanneholmes.ca/projects/threads-and-terrain](https://www.leanneholmes.ca/projects/threads-and-terrain)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,10 +131,10 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 * [Dev Certificate Maker](https://github.com/FiloSottile/mkcert)
 * [Img Shields](https://shields.io)
 * [Font Awesome](https://fontawesome.com)
-* [Bootswatch Themes] (https://bootswatch.com/)
-* https://regexlib.com/
-* [ngx-toastr] https://github.com/scttcper/ngx-toastr
-* https://www.npmjs.com/package/ngx-owl-carousel-o
+* [Bootswatch Themes](https://bootswatch.com/)
+* [RegEx Library](https://regexlib.com/)
+* [ngx-toastr](https://github.com/scttcper/ngx-toastr)
+* [owl-carousel](https://www.npmjs.com/package/ngx-owl-carousel-o)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,7 +152,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [Docker-url]: https://www.docker.com/
 [Redis]: https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=Redis&logoColor=white
 [Redis-url]: https://redis.com/
-[product-screenshot]: images/screenshot.png
 [Postgres]: https://img.shields.io/badge/Postgresql-4169E1?style=for-the-badge&logo=Postgresql&logoColor=white
 [Postgres-url]: https://www.postgresql.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
