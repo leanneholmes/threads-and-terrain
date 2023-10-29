@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="/client/src/assets/images/figma-logo.png" alt="Logo" width="200">
+    <img src="/client/src/assets/images/figma-logo.png" alt="Logo" width="300">
   </a>
 
   <h3 align="center">threads&terrain</h3>
@@ -69,11 +69,11 @@ Major frameworks/libraries used for the project were:
 
 * ![Angular.io]
 * [![TypeScript][TypeScript]][TypeScript-url]
-* Redis
-* Docker
 * [![NET][NET]][NET-url]
 * [![CSharp][CSharp]][CSharp-url]
-* Postgres
+* [![Postgres][Postgres]][Postgres-url]
+* Redis
+* Docker
 * [![Stripe][Stripe]][Stripe-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
@@ -157,8 +157,8 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
+[Postgres]: https://img.shields.io/badge/Postgresql-4169E1?style=for-the-badge&logo=Postgresql&logoColor=white
+[Postgres-url]: https://www.postgresql.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [Angular-url]: https://angular.io/
 [Stripe]: https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white
