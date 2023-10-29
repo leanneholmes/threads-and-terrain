@@ -7,7 +7,7 @@
     <img src="/client/src/assets/images/figma-logo.png" alt="Logo" width="300">
   </a>
 
-  <h3 align="center">threads&terrain</h3><p></p>
+  <h3 align="center">threads&terrain</h3>
 
   <p align="center">
     A full-stack Ecommerce store built with Angular and .NET
@@ -42,7 +42,7 @@
 <img src="https://assets-global.website-files.com/651909e5222ad9249885d9ad/653e06cfebd7182c1f7d3cd4_threads-and-terrain-1.jpg" alt="Screenshot" width="500">
 </div>
 
-Threads&Terrain is a fictional e-commerce application where users can browse and shop for outdoor gear and athletic apparel. The app features authentication, a shopping basket and full checkout system with Stripe payment integration. 
+<p>Threads&Terrain is a fictional e-commerce application where users can browse and shop for outdoor gear and athletic apparel. The app features authentication, a shopping basket and full checkout system with Stripe payment integration. </p>
 
 Features list: 
 * User authentication
