@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="/API/wwwroot/assets/images/figma-logo.png" alt="Logo" width="100">
+    <img src="/client/src/assets/images/figma-logo.png" alt="Logo" width="100">
   </a>
 
   <h3 align="center">threads&terrain</h3>
