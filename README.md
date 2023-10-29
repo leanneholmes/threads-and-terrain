@@ -44,7 +44,7 @@
 <p></p>
 <p>Threads&Terrain is a fictional e-commerce application where users can browse and shop for outdoor gear and athletic apparel. The app features authentication, a shopping basket and full checkout system with Stripe payment integration. </p>
 
-Features list: 
+<b>Features list: </b>
 * User authentication
 * Product sorting and filtering
 * Add, modify, remove item quantities in basket
